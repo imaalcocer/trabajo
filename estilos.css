@@ -1,0 +1,27 @@
+div{
+    height: 150px;
+    width: 180px;
+    border: 1px solid black;
+    display: inline-block;
+    font-size: 18px;
+}
+.lineal{
+    background: linear-gradient( to top, red, orange,yellow);
+}
+.radial{
+    background: radial-gradient( circle closest-side,yellow,orange,red,white);
+}
+.repetitivo{
+   background:repeating-linear-gradient(-45deg,red,orange,yellow); 
+}
+
+
+.lineal2{
+    background: linear-gradient( to bottom, rgb(0, 162, 255), rgb(0, 255, 115),rgb(255, 0, 221));
+}
+.radial2{
+    background: radial-gradient( circle closest-side,black,rgb(0, 102, 255),rgb(182, 181, 181));
+}
+.repetitivo2{
+   background:repeating-linear-gradient(-128deg,rgb(182, 180, 180),rgb(255, 0, 242) 5px,yellow,rgb(247, 0, 255) 10px); 
+}
